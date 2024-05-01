@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Erfanmah JS Project</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <header>
+      <h3>erfanmah7.ir | project-search</h3>
+    </header>
+
+    <div class="search-menu">
+      <div class="search-text">
+        <input type="text" placeholder="Enter a text" class="input-text" />
+        <div class="buttons">
+          <button class="filter selected" data-filter="all">All</button>
+          <button class="filter" data-filter="tech">Tech</button>
+          <button class="filter" data-filter="clothing">Clothing</button>
+          <button class="filter" data-filter="health">Health</button>
+        </div>
+      </div>
+      <div id="search-number">
+        <input type="number" placeholder="Enter a number" />
+        <button>search</button>
+      </div>
+    </div>
+
+    <main class="products">
+      <div class="product-item" data-category="Tech">
+        <img src="./img/airpods.png" />
+        <p>Apple Airpods</p>
+        <span>$ 199</span>
+      </div>
+      <div class="product-item" data-category="Clothing">
+        <img src="./img/bag.png" />
+        <p>Bag Pink</p>
+        <span>$ 19</span>
+      </div>
+      <div class="product-item" data-category="Clothing">
+        <img src="./img/jacket.png" />
+        <p>Jacket Orang</p>
+        <span>$ 25</span>
+      </div>
+      <div class="product-item" data-category="Health">
+        <img src="./img/cream.png" />
+        <p>Cream Hand & Face</p>
+        <span>$ 19</span>
+      </div>
+      <div class="product-item" data-category="Tech">
+        <img src="./img/iphone.png" />
+        <p>Iphone 13 pro</p>
+        <span>$ 235</span>
+      </div>
+
+      <div class="product-item" data-category="Health">
+        <img src="./img/shampoo.png" />
+        <p>Shampoo Hair</p>
+        <span>$ 10</span>
+      </div>
+      <div class="product-item" data-category="Health">
+        <img src="./img/shoes.png" />
+        <p>Shoes</p>
+        <span>$ 15</span>
+      </div>
+      <div class="product-item" data-category="Health">
+        <img src="./img/vitamin.png" />
+        <p>Vitamin</p>
+        <span>$ 18</span>
+      </div>
+      <div class="product-item" data-category="Tech">
+        <img src="./img/watch.png" />
+        <p>Apple Watch</p>
+        <span>$ 160</span>
+      </div>
+    </main>
+
+    <script src="./js/app.js"></script>
+  </body>
+</html>
